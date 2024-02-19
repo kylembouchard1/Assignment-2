@@ -1,0 +1,204 @@
+nav {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 100px;
+    color: darkgreen;
+    background-color: rgb(0, 0, 0);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* This is my nav menu where I created a black background */
+    }
+
+h1 {
+    background-color: darkgreen;
+    color: white;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    /* Style H1 */
+    }
+
+h2 {
+    font-size: 40px;
+    /* styled H2 */
+    }
+
+.flex1 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    /* styled flex 1 box used on register page to display three images in a row */
+    }
+
+.flex2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: ;
+    padding-left: 25px;
+    padding-right: 0px;
+    margin-top: 00px;
+    background-color: darkgrey;
+    /* Second styled flexbox-unique background color and different paddings */
+    }
+
+.flex3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: ;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 00px;
+    background-color: darkgreen;
+    color: white;
+    font-size: px;
+    /* third styled flexbox-unique background color and different paddings */
+    }
+
+.flex-item1 {
+    width: 400px;
+    height: 400px;
+    /* Class created for stylizing images within specified flexbox  */
+    }
+
+
+
+p {
+    padding-right: 50px;
+    padding-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Styled the generic paragraph text to display with padding and different font */
+    }
+
+
+.button1 {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* Styled button on homepage used for different margin */
+    }
+
+.button2 {
+
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    margin-left: px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* styled button on the register form used for different margin  */
+    }
+
+.p1 {
+    padding-left: 25px;
+    padding-right: 150px;
+    line-height: 2em;
+    /*styled paragraph class used on sections that required left padding  */
+    }
+
+.p2 {
+    padding-left: 50px;
+    padding-right: 150px;
+    line-height: 2em;
+    /*styled paragraph class used on sections that required right padding  */
+    }
+
+.h2-1 {
+    padding-left: 25px;
+    margin-top: 150px;
+    /*styled class used for H2 requiring left padding  */
+    }
+
+.h2-2 {
+    padding-left: 50px;
+    margin-top: 150px;
+    /*styled class used for H2 requiring more left padding  */
+    }
+
+.h2-3 {
+    padding-left: 50px;
+    padding-right: 75px;
+    margin-top: 150px;
+    /*styled class used for H2 requiring left and right padding  */
+    }
+
+a:visited {
+    color: gold;
+    }
+
+a:link {
+    color: white;
+    }
+
+a:hover {
+    color: gold;
+/* 3 different psuedo classes stylizing how the links are displayed in their various states */
+    }
+
+table {
+        
+    border: 3px solid;
+    border-color: darkgreen;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+tr,td,th {
+    border: 1px solid;
+    padding: 50px;
+    padding-left: 50px;
+    text-align: left;
+    }
+
+th {
+    background-color: gold;
+    font-size: 20px;
+    align-items: left;
+    }
+
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
+    font-weight: 600;
+    /* Variety of styles attached to the table to change background colors and padding between items */
+    }
+
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    line-height: 2em;
+    padding-left: 75px;
+    /* styled ordered list to display with larger font and more padding */
+    }
+
+form {
+    margin-left: 50px;
+    }   
+
+input {
+        width: 200px;
+      }
+
+footer {
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        /* Styled footer */
+        }
